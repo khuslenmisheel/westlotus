@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEST LOTUS</title>
+    <script type="importmap">
+        {
+          "imports": {
+            "three/addons/": "https://unpkg.com/three@v0.163.0/examples/jsm/",
+            "three": "https://unpkg.com/three@v0.163.0/build/three.module.js"
+          }
+        }
+      </script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e1eff5215a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Navigation bar-->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="./" id="navbar__logo"><img src="images/Logo.png"></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="https://westlotus.myshopify.com/" class="navbar__links">SHOP</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/about" class="navbar__links">OUR GOAL</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/team" class="navbar__links">TEAM</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Image-Container-->
+    <div class="image-container">
+        <img src="images/Michael.jpg" alt="Full Page Display" class="full-image">
+    </div>
+
+    <!--Footer Section-->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>ABOUT US</h2>
+                    <a href="mailto:westlotusshop@gmail.com">Contact Us</a>
+                    <a href="/terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="./" id="footer__logo"><img src="images/Logo.png"></a>
+                </div>
+                <p class="website__rights">© West Lotus 2024. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="https://www.instagram.com/west.lotus.shop/?utm_source=ig_web_button_share_sheet" class="social__icon--link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:westlotusshop@gmail.com" class="social__icon--link" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+</html>
