@@ -11,6 +11,11 @@ h1, h2, h3 {
     letter-spacing: 0.21em;
 }
 
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
 /*Setting the color for the main page*/
 body {
     margin: 0;
