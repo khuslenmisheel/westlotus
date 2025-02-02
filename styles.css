@@ -894,3 +894,49 @@ body {
         margin: 2.5rem 0;
     }
 }
+
+
+/*Founder section background configs*/
+
+.photographer__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photographer__card {
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/images/Andrew.jpeg');
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.photographer__card p {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+
+.photographer__card button {
+    color : #000000;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #ffffff;
+    position: absolute;
+    top: 440px;
+    left: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.photographer__card:hover {
+    transform: scale(1.075);
+    transition: 1s ease in;
+    cursor: pointer;
+}
