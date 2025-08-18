@@ -626,8 +626,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 80vh;
+    min-height: 80vh;
     text-align: center;
+    padding-bottom: 3rem;
 }
 
 .designers h1 {
@@ -709,7 +710,8 @@ body {
 /*Designer style configurations for mobile and smaller screens*/
 @media screen and (max-width: 960px) {
     .designers {
-        height: 800px;
+        min-height: auto;
+        padding-bottom: 4rem;
     }
 
     .designers h1{
@@ -729,8 +731,8 @@ body {
 
 @media screen and (max-width: 480px) {
     .designers {
-        height: 800px;
-        padding-bottom: 2rem;
+        min-height: auto;
+        padding-bottom: 5rem;
     }
     .designers h1{
         font-size: 1.2rem;
